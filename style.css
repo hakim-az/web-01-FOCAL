@@ -12,3 +12,54 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+/* HERO SECTION STYLE START */
+.hero{
+    height: 100vh;
+    max-height: 1024px;
+    width: 100%;
+    background-image: url('images/IMG9.png');
+    background-size: cover;
+}
+.hero .container{
+    height: 100vh;
+    max-height: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero .container h1{
+    margin: 60px 0;
+    color: #ffffff;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
+.hero .container button{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    padding: 10px 15px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.hero .container button:hover{
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+@media only screen and (max-width: 768px){
+    .hero{
+        background-image: url('images/IMG8.png');
+    }
+    .hero .container h1{
+        font-size: 2.4rem;
+    }
+}
+/* HERO SECTION STYLE END */
