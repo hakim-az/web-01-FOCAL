@@ -207,7 +207,7 @@ body{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    background-color: rgba(128, 128, 128, 0.2);
+    background-color:  rgba(105, 105, 105, 0.1);
 }
 .about-image{
     background-image: url('images/IMG8.png');
@@ -355,3 +355,45 @@ body{
     }
 }
 /* SKILLS STYLE END */
+
+/* RESUME STYLE START */
+.resume{
+    background-color:  rgba(105, 105, 105, 0.1);
+}
+.resume_header{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+    color:  dimgray;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.resume_text{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color:  dimgray;
+    font-family: sans-serif;
+    opacity: 0.8;
+    padding: 40px 10px;
+}
+.resume_btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.resume_btn button{
+    background-color: transparent;
+    width: 200px;
+    height: 44px;
+    color: green;
+    border: 2px solid  green;
+    box-shadow: none;
+    font-size: 16px;
+}
+.resume_btn button{
+    cursor: pointer;
+    opacity: 0.8;
+}
+/* RESUME STYLE END */
