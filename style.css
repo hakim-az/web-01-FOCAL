@@ -69,6 +69,8 @@ body{
     background-color: rgb(18, 58, 18);
     width: 100%;
     padding: 5px 0;
+    position: sticky;
+    top: 0;
 }
 .nav-wrapper {
     display: flex;
@@ -135,7 +137,7 @@ body{
     background-color: black;
     position: fixed;
     left: 0;
-    top: 0;
+    bottom: 0;
     width: 100%;
     height: calc(100% - 80px);
     display: flex;
@@ -165,4 +167,37 @@ body{
 }
 /* NAVBAR STYLE END */
 
+/* INTRO STYLE START */
+.intro .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 80px 0 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro-box{
+    width: 30%;
+    min-width: 300px;
+    margin-bottom: 40px;
+    padding-right: 40px;
+}
+.intro-box h3{
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: rgb(85, 83, 83);
+}
+.intro-box p{
+    color: gray;
+    text-align: justify;
+}
+@media only screen and (max-width: 768px){
+    .intro .container{
+        justify-content: space-around;
+    }
+    .intro-box{
+        padding-right: 0;
+    }
+}
+/* INTRO STYLE END */
 
