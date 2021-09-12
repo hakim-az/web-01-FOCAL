@@ -15,14 +15,14 @@ body{
 /* HERO SECTION STYLE START */
 .hero{
     height: 100vh;
-    max-height: 1024px;
+    max-height: 800px;
     width: 100%;
     background-image: url('images/IMG9.png');
     background-size: cover;
 }
 .hero .container{
     height: 100vh;
-    max-height: 1024px;
+    max-height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -207,14 +207,15 @@ body{
     margin: 0 auto;
     display: flex;
     align-items: center;
+    background-color: rgba(128, 128, 128, 0.2);
 }
 .about-image{
     background-image: url('images/IMG8.png');
     background-position: center center;
     background-size: cover;
     width: 70%;
-    height: calc(100vh - 80px);
-    max-height: 600px;
+    height: 100vh;
+    max-height: 700px;
 }
 .about-content{
     margin-left: 80px;
@@ -265,3 +266,92 @@ body{
     }
 }
 /* ABOUT STYLE END */
+
+/* SKILLS STYLE START */
+.skills .container{
+    display: flex;
+    padding: 50px 0;
+}
+.skills-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+}
+.skills-left h2{
+    color: gray;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.skills-left p{
+    color: gray;
+    margin-bottom: 20px;
+    width: 90%;
+    text-align: justify;
+}
+.skills-left button{
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: transparent;
+    border: 2px solid rgb(57, 146, 57);
+    color: rgb(57, 146, 57);
+    cursor: pointer;
+    font-weight: 600;
+}
+.skills-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 50px 0 50px 5%;
+}
+.skill-item{
+    margin-bottom: 40px;
+}
+.skill-item h4{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.skill-wrapper{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.24);
+    border-radius: 20px;
+}
+.skill-fill{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 30px;
+    background-color: green;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.skill-fill span{
+    color: #ffffff;
+    padding-right: 15px;
+}
+.nine{
+    width: 90%;
+}
+.height{
+    width: 80%;
+}
+.seven{
+    width: 70%;
+}
+@media only screen and (max-width: 768px){
+    .skills .container{
+        flex-direction: column;
+    }
+    .skills-left , .skills-right{
+        width: 100%;
+        padding: 0 5%;
+    }
+    .skills-left{
+        margin-bottom: 80px;
+    }
+}
+/* SKILLS STYLE END */
