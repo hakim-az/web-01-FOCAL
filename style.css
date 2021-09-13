@@ -69,9 +69,10 @@ body{
     background-color: rgb(18, 58, 18);
     width: 100%;
     padding: 5px 0;
-    position: sticky;
     top: 0;
-    z-index: 10;
+  transition:all 0.5s;
+  position: relative;
+  z-index: 1;
 }
 .nav-wrapper {
     display: flex;
@@ -166,6 +167,10 @@ body{
     margin-left: 0;
     text-align: center;
 }
+body.fixed-nav nav {
+    position: fixed;
+    box-shadow: 0 5px 0 rgba(0,0,0,0.1);
+  }
 /* NAVBAR STYLE END */
 
 /* INTRO STYLE START */
@@ -466,7 +471,7 @@ body{
         border-bottom: 2px solid  rgba(105, 105, 105, 0.2);
     }
     .education-text{
-        width: 90%;
+        width: 100%;
         padding-top: 80px;
         margin: 0 auto;
     }
@@ -474,7 +479,7 @@ body{
         width: 100%;
     }
     .education-items{
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         padding: 40px 20px;
     }
