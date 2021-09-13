@@ -71,6 +71,7 @@ body{
     padding: 5px 0;
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 .nav-wrapper {
     display: flex;
@@ -667,3 +668,54 @@ body{
     }
 }
 /* TESTMONIAL STYLE END */
+
+/* PORTFOLIO STYLE START */
+.portfolio{
+    padding: 50px 0;
+}
+.portfolio .container h2{
+    text-align: center;
+    padding: 20px 0;
+    color: gray;
+}
+.portfolio .container p{
+    text-align: center;
+    color: gray;
+    width: 70%;
+    min-width: 300px;
+    margin: 0 auto 40px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+.gall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.gall i{
+    font-size: 30px;
+    color: #ffffff;
+    z-index:2;
+    display: none;
+}
+.gall:hover i{
+    display: inline;
+}
+.gall-1{ background-image: url('images/IMG1.png');}
+.gall-2{ background-image: url('images/IMG2.png');}
+.gall-3{ background-image: url('images/IMG3.png');}
+.gall-4{ background-image: url('images/IMG4.png');}
+.gall-5{ background-image: url('images/IMG5.png');}
+.gall-6{ background-image: url('images/IMG6.png');}
+.gall-7{ background-image: url('images/IMG7.png');}
+.gall-8{ background-image: url('images/IMG8.png');}
+.gall-9{ background-image: url('images/IMG9.png');}
+/* PORTFOLIO STYLE END */
