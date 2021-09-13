@@ -375,7 +375,6 @@ body{
     text-align: center;
     color:  dimgray;
     font-family: sans-serif;
-    opacity: 0.8;
     padding: 40px 10px;
 }
 .resume_btn{
@@ -391,9 +390,99 @@ body{
     border: 2px solid  green;
     box-shadow: none;
     font-size: 16px;
-}
-.resume_btn button{
     cursor: pointer;
-    opacity: 0.8;
 }
 /* RESUME STYLE END */
+
+/* EDUCATION STYLE START */
+.my-education .container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 2px solid  rgba(105, 105, 105, 0.2);
+}
+.education-text{
+    width: 50%;
+    padding-top: 80px;
+}
+.education-text h3{
+    color:  dimgray;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+.education-text p{
+    width: 80%;
+    color:  dimgray;
+    font-size: 16px;
+    font-family: sans-serif;
+    opacity: 0.8;
+    padding-bottom: 20px;
+}
+.education-items{
+    width: 50%;
+    padding: 80px 20px;
+}
+.first-item{
+    
+    margin-bottom: 40px;
+}
+.item-header{
+    padding-bottom: 20px;
+    border-bottom: 2px solid  rgba(105, 105, 105, 0.2);
+}
+.item-header h3{
+    color:  dimgray;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.item-header p{
+    width: 80%;
+    color:  dimgray;
+    font-size: 16px;
+    font-family: sans-serif;
+    opacity: 0.8;
+    padding-bottom: 10px;
+}
+.item-header span{
+    background-color: dimgray;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 5px;
+}
+.item-text{
+    padding: 20px 0;
+    width: 80%;
+    color:  dimgray;
+    font-size: 16px;
+    font-family: sans-serif;
+    opacity: 0.8;
+}
+@media screen and (max-width: 768px) {
+    .my-education .container{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid  rgba(105, 105, 105, 0.2);
+    }
+    .education-text{
+        width: 90%;
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+    .education-text p{
+        width: 100%;
+    }
+    .education-items{
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+    .item-header p{
+        width: 100%;
+    }
+}
+/* EDUCATION STYLE END */
