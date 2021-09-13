@@ -795,3 +795,37 @@ body{
     }
 }
 /* CONTACT STYLE END */
+
+/* FOOTER STYLE START */
+footer{
+    background-color: rgb(18, 58, 18);
+}
+footer .container{
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .container h3{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 30px;
+    text-align: center;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons i{
+    font-size: 25px;
+    color: #ffffff;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.social-icons i:hover{
+    background-color: #000000;
+}
+/* FOOTER STYLE END */
